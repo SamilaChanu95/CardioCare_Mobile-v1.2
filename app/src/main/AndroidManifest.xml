@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainScreenActivity"></activity>
+        <activity android:name=".ICUReportActivity"></activity>
+        <activity android:name=".PatientActivity" />
+        <activity android:name=".TechnicianActivity" />
+        <activity android:name=".NurseActivity" />
+        <activity android:name=".DoctorActivity" />
         <activity
             android:name=".SplashActivity"
             android:launchMode="singleInstance">

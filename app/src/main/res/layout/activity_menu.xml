@@ -55,6 +55,7 @@
                     android:padding="16dp">
 
                     <ImageButton
+                        android:id="@+id/imageButtonPatient"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:contentDescription="@string/patient"
@@ -89,6 +90,7 @@
                     android:padding="16dp">
 
                     <ImageButton
+                        android:id="@+id/imageButtonDoctor"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:contentDescription="@string/doctor"
@@ -123,6 +125,7 @@
                     android:padding="16dp">
 
                     <ImageButton
+                        android:id="@+id/imageButtonNurse"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:contentDescription="@string/nurse"
@@ -192,6 +195,7 @@
                     android:padding="16dp">
 
                     <ImageButton
+                        android:id="@+id/imageButtonTechnician"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:contentDescription="@string/technician"
@@ -226,6 +230,7 @@
                     android:padding="16dp">
 
                     <ImageButton
+                        android:id="@+id/imageButtonICUReport"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:background="@drawable/report"

@@ -5,35 +5,145 @@
     android:layout_height="match_parent"
     android:padding="8dp">
 
-    <TextView
-        android:id="@+id/textViewName"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_weight="8"
-        android:text="Chanuka Samila"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        android:layout_weight="0.3"
+        android:gravity="fill_horizontal"
+        android:orientation="vertical">
 
-    <TextView
-        android:textStyle="bold"
-        android:id="@+id/textViewUpdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textViewDelete"
-        android:layout_toLeftOf="@+id/textViewDelete"
-        android:layout_toStartOf="@+id/textViewDelete"
-        android:padding="5dp"
-        android:text="Update"
-        android:textColor="#498C1A" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="1dp"
+            android:padding="2dp"
+            android:weightSum="1">
 
-    <TextView
-        android:textStyle="bold"
-        android:id="@+id/textViewDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:padding="5dp"
-        android:text="Delete"
-        android:textColor="#C20A10" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_marginRight="3dp"
+                android:background="#f0a85b"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:padding="7dp"
+                android:hint="Name" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:background="#ded6ce"
+                android:text="Chanuka Samila"
+                android:padding="9.4dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="1dp"
+            android:padding="2dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_marginRight="3dp"
+                android:background="#f0a85b"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:padding="7dp"
+                android:hint="Address" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:background="#ded6ce"
+                android:text="Colombo"
+                android:padding="9.4dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="1dp"
+            android:padding="2dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_marginRight="3dp"
+                android:background="#f0a85b"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:padding="7dp"
+                android:hint="Phone Number" />
+
+            <TextView
+                android:id="@+id/textViewPhoneNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:background="#ded6ce"
+                android:text="011XXXXXXX"
+                android:padding="9.4dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="1dp"
+            android:padding="2dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_marginRight="3dp"
+                android:background="#f0a85b"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:padding="7dp"
+                android:hint="Current Status" />
+
+            <TextView
+                android:id="@+id/textViewStatus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:background="#ded6ce"
+                android:text="Active"
+                android:padding="9.4dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>
